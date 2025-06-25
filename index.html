@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Oficina</title>
+</head>
+<body>
+    <details>
+        <summary>conteúdo</summary>
+        <nav>
+            <ul>
+                <li><a href="https://centrodeinovacao.educacao.sp.gov.br/" target="_blank">CIEBP</a></li>
+                <li><a href="">Home</a></li>
+                <li><a href="">Perguntas</a></li>
+                <li><a href="">Tabelas</a></li>
+                <li><a href="">Alunos</a></li>
+                <li><a href="">Professores</a></li>
+            </ul>
+        </nav>
+    
+        <header>
+            <img src="./imagens/html.jpg" alt="html_e_CSS." height="200px"; width="250px">
+        </header>
+    
+        <main>
+            <h1>Oficina Git, Github, Html e CSS.</h1>
+            <ol>
+                <li id="item-html">html.</li>
+                <li id="item-CSS">CSS.</li>
+                <li id="item-Git">Git.</li>
+                <li id="item-Github">Github.</li>
+            </ol>
+            <form>
+                <fieldset>
+                    <legend>Área de Login</legend>
+                    <label for="nome">
+                        Digite seu nome: </label>
+                    <input type="name" 
+                    id="nome" name="nome" 
+                    placeholder="Digite seu nome!" required><br>
+                    <label for="data">
+                        Digite sua data de nascimento: </label>
+                    <input type="date" 
+                    id="data" name="data" 
+                    placeholder="Digite sua data de nascimento!" required><br>
+                    <label for="email">
+                        Digite seu email: </label>
+                    <input type="email" 
+                    id="email" name="email" 
+                    placeholder="Digite seu email!" required value="@al.educacao.sp.gov.br"><br>
+                    <label for="senha">
+                        Digite sua senha: </label>
+                    <input type="password" 
+                    id="senha" name="senha" 
+                    placeholder="Digite sua senha!" required><br>
+                    <button type="submit">Enviar</button>
+                </fieldset>
+            </form>
+    
+            <section class="perguntas" id="perguntas">
+                <h2>
+                    Pergunta 1: Qual a linguagem de programação
+                    utilizada para estruturar páginas web?
+                </h2>
+                <form>
+                    <input type="radio" value="Python" 
+                     id="p1a" name="pergunta1">
+                    <label for="p1a">Python</label>
+                    <input type="radio" value="Html" 
+                     id="p1b" name="pergunta1">
+                    <label for="p1b">Html</label>
+                    <input type="radio" value="C" 
+                     id="p1c" name="pergunta1">
+                    <label for="p1c">C</label>
+                    <input type="radio" value="Java" 
+                    id="p1d" name="pergunta1">
+                    <label for="p1d">Java</label>
+                </form>
+    
+                <h2>
+                    Pergunta 2: Qual dessas tecnologias 
+                    são consideradas linguagens de programação?
+                </h2>
+                <form>
+                    <input type="checkbox" value="Python" 
+                     id="p2a" name="pergunta2">
+                    <label for="p2a">Python</label>
+                    <input type="checkbox" value="Html" 
+                     id="p2b" name="pergunta2">
+                    <label for="p2b">Html</label>
+                    <input type="checkbox" value="CSS" 
+                    id="p2c" name="pergunta2">
+                    <label for="p2c">CSS</label>
+                    <input type="checkbox" value="Java" 
+                     id="p2d" name="pergunta2">
+                    <label for="p2d">Java</label>
+                </form>
+    
+                <h2>
+                    Pergunta 3: Qual dessas linguagens de programação
+                     é mais usada para programação Web(front-end)?
+                </h2>
+                <form>
+                    <input type="radio" value="Javascript" 
+                     id="p3a" name="pergunta3">
+                    <label for="p3a">Javascript</label>
+                    <input type="radio" value="C++" 
+                     id="p3b" name="pergunta3">
+                    <label for="p3b">C++</label>
+                    <input type="radio" value="Lua" 
+                     id="p3c" name="pergunta3">
+                    <label for="p3c">Lua</label>
+                    <input type="radio" value="Java" 
+                     id="p3d" name="pergunta3">
+                    <label for="p2d">Java</label>
+                </form>
+                <h2>
+                    Pergunta 4: O que é um site?
+                </h2>
+                <form>
+                    <input type="text" placeholder="Digite sua resposta..."
+                     id="p4a" name="pergunta4">
+                </form>
+                <button type="submit">Enviar</button>
+            </section>
+    
+            <section>
+                <table border="2">
+                    <thead>
+                        <tr>
+                            <th>Características</th>
+                            <th>HTML</th>
+                            <th>CSS</th>
+                            <th>Javascript</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Tipo</td>
+                            <td>Marcação</td>
+                            <td>Estilização</td>
+                            <td>Programação</td>
+                        </tr>
+                        <tr>
+                            <td>Função</td>
+                            <td>Estrutura o conteúdo</td>
+                            <td>Estiliza a aparência</td>
+                            <td>Adiciona interatividade e dinamismo</td>
+                        </tr>
+                        <tr>
+                            <td>Extensão de Arquivo</td>
+                            <td>.html</td>
+                            <td>.css</td>
+                            <td>.js</td>
+                        </tr>
+                    </tbody>
+                    <tfoot>
+                        <tr>
+                            <td colspan="4">Bons Estudos!</td>
+                        </tr>
+                    </tfoot>
+                </table>
+            </section>
+            <section id="dropdown">
+                <h2>Conheçam os alunos do IFSP Guarulhos</h2>
+                <details>
+                    <summary>Quem somos?</summary>
+                    <ul>
+                        <li>Carolina Yumi</li>
+                        <li>Celine Galdino</li>
+                        <li>Diogo Almeida</li>
+                        <li>Gisele Medeiro</li>
+                        <li>Fernanda Barbosa</li>
+                    </ul>
+                </details>
+            </section>
+        </main>
+        <footer>
+            <p>Introdução básica HTML e CSS.<br> 
+                Todos os direitos reservados</p>
+                <p>Semana de Robótica</p>
+                <a href="">Oficina</a>
+                <label for="comentários">Deixe seu comentário: </label><br>
+                <textarea name="comentários" id="comentários" cols="30" 
+                rows="10" placeholder="Digite seu cometário aqui..."></textarea>
+                <button type="submit">Enviar</button><br>
+        </footer>
+    </details>
+   
+</body>
+</html>
